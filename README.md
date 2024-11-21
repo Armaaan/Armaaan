@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm Arman Ul Alam
 A passionate **Backend Developer** | **Open Source Contributor** | **Tech Enthusiast**
-> *"Building the future with code, one project at a time."*
+> *"Building the future with code."*
 
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/armanulalam)
 [![Website Badge](https://img.shields.io/badge/Portfolio-website-green)](https://armanulalam.dev)
@@ -48,9 +48,21 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 📈 GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=radical)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical)
+<div align="center" style="display: flex; flex-direction: row; justify-content: center;">
+  <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=radical&include_all_commits=true" 
+       alt="GitHub Stats" 
+    />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" 
+       alt="GitHub Streak" 
+    />
+</div>
+
+<div align="center" style="margin-top: 20px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=radical" 
+       alt="Top Languages" 
+       style="width: 60%; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" />
+</div>
+
 
 ---
 
