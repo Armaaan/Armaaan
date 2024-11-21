@@ -1,4 +1,4 @@
-![Header Image](https://your-banner-url-here.com](https://raw.githubusercontent.com/keshavsingh4522/keshavsingh4522/master/assets/cover.jpg))
+![Header Image](github-header-image.png)
 
 # Hi 👋, I'm Arman Ul Alam
 A passionate **Backend Developer** | **Open Source Contributor** | **Tech Enthusiast**
