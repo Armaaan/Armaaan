@@ -1,28 +1,32 @@
-name: Update README Theme
+name: Update README Git Stats Theme
 
 on:
   schedule:
-    - cron: "*/1 * * * *"  # Every 1 minute
-  workflow_dispatch:
+    - cron: '*/1 * * * *'
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
-      - name: Update theme
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Update README.md with new theme
         run: |
-          THEMES=("radical" "dark" "merko" "tokyonight")
-          THEME_INDEX=$(( $(date +%s) % ${#THEMES[@]} ))
-          SELECTED_THEME=${THEMES[$THEME_INDEX]}
-          sed -i "s/theme=[a-z]*/theme=${SELECTED_THEME}/g" README.md
+          themes=("radical" "dark" "merko" "tokyonight")
+          theme=${themes[$((RANDOM % ${#themes[@]}))]}
+          sed -i "s/theme=[^&]*/theme=$theme/" README.md
 
       - name: Commit and push changes
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Update theme to $SELECTED_THEME"
+          git commit -m "Update README.md git stats theme to $theme"
           git push
