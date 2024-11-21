@@ -48,14 +48,16 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 📈 GitHub Stats:
-<div align="center" style="display: flex; flex-direction: row; justify-content: center;">
-  <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=radical&include_all_commits=true" 
-       alt="GitHub Stats" 
-    />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" 
-       alt="GitHub Streak" 
-    />
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=radical" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
 
 <div align="center" style="margin-top: 20px;">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=radical" 
