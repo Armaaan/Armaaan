@@ -51,16 +51,16 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=radical" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=radical
     </td>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" alt="GitHub Streak" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical
     </td>
   </tr>
 </table>
 
 <div align="center" style="margin-top: 20px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=radical" 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=radical
        alt="Top Languages" 
        style="width: 60%; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" />
 </div>
@@ -69,7 +69,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 📈 Contribution Graph:
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=armaaan&theme=react-dark)
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=armaaan&theme=radical
 
 ---
 
@@ -115,7 +115,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 🏆 Achievements:
-![Trophies](https://github-profile-trophy.vercel.app/?username=armaaan&theme=gruvbox)  
+![Trophies](https://github-profile-trophy.vercel.app/?username=armaaan&theme=radical
 
 ---
 
