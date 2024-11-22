@@ -69,7 +69,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 
 
 
-<div align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: stretch;">
+<div align="center" style="display: flex; flex-direction: row; justify-content: center;">
   <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=dark" style="width: 400px;" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" style="width: 400px;" />
 </div>
