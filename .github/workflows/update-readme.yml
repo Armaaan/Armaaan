@@ -1,4 +1,4 @@
-name: Update README Git Stats Theme
+name: Update README Themes
 
 on:
   schedule:
@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   update-readme:
@@ -15,29 +14,32 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '14'
 
       - name: Update README.md with new themes
         run: |
-          # Define themes for GitHub Stats, Streak, and Contribution Graph
+          # Define random themes for each section
           stats_themes=("radical" "dark" "merko" "tokyonight")
-          graph_themes=("radical" "dark" "tokyonight" "github")
+          graph_themes=("radical" "dark" "tokyonight" "react-dark")
 
-          # Randomly select themes
+          # Select random themes
           stats_theme=${stats_themes[$((RANDOM % ${#stats_themes[@]}))]}
           graph_theme=${graph_themes[$((RANDOM % ${#graph_themes[@]}))]}
 
           echo "Selected stats theme: $stats_theme"
           echo "Selected graph theme: $graph_theme"
 
-          # Update GitHub Stats and Streak theme in the <td> HTML block
+          # Update GitHub Stats and Streak themes in the table
           sed -i "s|\(https://github-readme-stats\.vercel\.app/api?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
           sed -i "s|\(https://github-readme-streak-stats\.herokuapp\.com/\?user=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
+
+          # Update Top Languages widget theme
+          sed -i "s|\(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
 
           # Update Contribution Graph theme
           sed -i "s|\(https://github-readme-activity-graph\.vercel\.app/graph?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$graph_theme|" README.md
@@ -47,5 +49,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Update README.md themes: stats=$stats_theme, graph=$graph_theme"
+          git commit -m "Update themes: Stats=$stats_theme, Graph=$graph_theme"
           git push
