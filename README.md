@@ -48,6 +48,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 📈 GitHub Stats:
+<!--
 <table>
   <tr>
     <td>
@@ -61,6 +62,19 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 
 <div align="center" style="margin-top: 20px;">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=merko" 
+       alt="Top Languages" 
+       style="width: 60%; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" />
+</div>
+-->
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=dark" alt="GitHub Stats" style="max-width: 45%; min-width: 300px;" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" alt="GitHub Streak" style="max-width: 45%; min-width: 300px;" />
+</div>
+
+<div align="center" style="margin-top: 20px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=tokyonight" 
        alt="Top Languages" 
        style="width: 60%; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" />
 </div>
