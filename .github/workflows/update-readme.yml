@@ -44,7 +44,7 @@ jobs:
           sed -i -E "s|(https://github-readme-streak-stats\.herokuapp\.com/\?user=armaaan&[^ ]*theme=)[^&\" ]*|\1$streak_theme|" README.md
 
           # Update Top Languages widget
-          sed -i "s|\(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$langs_theme|" README.md
+          sed -i -E "s|(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=armaaan&[^ ]*theme=)[^&\" ]*|\1$langs_theme|" README.md
 
       - name: Commit and push changes
         run: |
