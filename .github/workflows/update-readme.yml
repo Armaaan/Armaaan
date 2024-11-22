@@ -1,4 +1,4 @@
-name: Update README Themes
+name: Update README Widget Themes
 
 on:
   schedule:
@@ -23,33 +23,33 @@ jobs:
 
       - name: Update README.md with new themes
         run: |
-          # Define random themes for each section
-          stats_themes=("radical" "dark" "merko" "tokyonight")
-          graph_themes=("radical" "dark" "tokyonight" "react-dark")
+          # Define random themes for each widget
+          stats_themes=("dark" "radical" "merko" "tokyonight")
+          streak_themes=("dark" "radical" "tokyonight")
+          langs_themes=("dark" "radical" "merko" "tokyonight")
 
           # Select random themes
           stats_theme=${stats_themes[$((RANDOM % ${#stats_themes[@]}))]}
-          graph_theme=${graph_themes[$((RANDOM % ${#graph_themes[@]}))]}
+          streak_theme=${streak_themes[$((RANDOM % ${#streak_themes[@]}))]}
+          langs_theme=${langs_themes[$((RANDOM % ${#langs_themes[@]}))]}
 
           echo "Selected stats theme: $stats_theme"
-          echo "Selected graph theme: $graph_theme"
+          echo "Selected streak theme: $streak_theme"
+          echo "Selected top languages theme: $langs_theme"
 
-          # Update GitHub Stats theme
+          # Update GitHub Stats widget
           sed -i "s|\(https://github-readme-stats\.vercel\.app/api?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
 
-          # Update GitHub Streak theme
-          sed -i "s|\(https://github-readme-streak-stats\.herokuapp\.com/\?user=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
+          # Update GitHub Streak widget
+          sed -i "s|\(https://github-readme-streak-stats\.herokuapp\.com/\?user=armaaan&[^\"]*theme=\)[^&\"]*|\1$streak_theme|" README.md
 
-          # Update Top Languages theme
-          sed -i "s|\(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
-
-          # Update Contribution Graph theme
-          sed -i "s|\(https://github-readme-activity-graph\.vercel\.app/graph?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$graph_theme|" README.md
+          # Update Top Languages widget
+          sed -i "s|\(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$langs_theme|" README.md
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Update themes: Stats=$stats_theme, Graph=$graph_theme"
+          git commit -m "Update themes: Stats=$stats_theme, Streak=$streak_theme, Languages=$langs_theme"
           git push
