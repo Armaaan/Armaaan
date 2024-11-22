@@ -38,7 +38,7 @@ jobs:
           echo "Selected top languages theme: $langs_theme"
 
           # Update GitHub Stats widget
-          sed -i "s|\(https://github-readme-stats\.vercel\.app/api?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
+          sed -i -E "s|(https://github-readme-stats\.vercel\.app/api\?username=armaaan&[^ ]*theme=)[^&\" ]*|\1$stats_theme|" README.md
 
           # Update GitHub Streak widget
           sed -i -E "s|(https://github-readme-streak-stats\.herokuapp\.com/\?user=armaaan&[^ ]*theme=)[^&\" ]*|\1$streak_theme|" README.md
