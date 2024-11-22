@@ -69,10 +69,10 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 
 
 <div align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: stretch; gap: 20px;">
-  <div style="display: flex; justify-content: center; align-items: center; background-color: #1e1e2e; padding: 10px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); width: 400px; height: 220px;">
+  <div style="display: flex; justify-content: center; align-items: center; background-color: #1e1e2e; padding: 10px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); width: 400px; height: 150px;">
     <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=dark" alt="GitHub Stats" style="width: 100%; height: 100%; object-fit: contain;" />
   </div>
-  <div style="display: flex; justify-content: center; align-items: center; background-color: #1e1e2e; padding: 10px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); width: 400px; height: 220px;">
+  <div style="display: flex; justify-content: center; align-items: center; background-color: #1e1e2e; padding: 10px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); width: 400px; height: 150px;">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" alt="GitHub Streak" style="width: 100%; height: 100%; object-fit: contain;" />
   </div>
 </div>
