@@ -25,7 +25,7 @@ jobs:
         run: |
           # Define random themes for each widget
           stats_themes=("dark" "radical" "merko" "tokyonight")
-          streak_themes=("dark" "radical" "tokyonight")
+          streak_themes=("dark" "radical" "merko" "tokyonight")
           langs_themes=("dark" "radical" "merko" "tokyonight")
 
           # Select random themes
