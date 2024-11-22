@@ -50,7 +50,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ## 📈 GitHub Stats:
 <table>
   <tr>
-    td>
+    <td>
       <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=merko" alt="GitHub Stats" />
     </td>
     <td>
