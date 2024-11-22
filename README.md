@@ -48,7 +48,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 📈 GitHub Stats:
-<table style="border: none;">
+<table style="border: none; border-collapse: collapse; width: 100%; text-align: center;">
   <tr style="border: none;">
     <td style="border: none;">
       <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=merko" alt="GitHub Stats" />
