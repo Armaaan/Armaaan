@@ -69,7 +69,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 📈 Contribution Graph:
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=armaaan&theme=radical)
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=armaaan&theme=react-dark)
 
 ---
 
@@ -115,7 +115,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 🏆 Achievements:
-![Trophies](https://github-profile-trophy.vercel.app/?username=armaaan&theme=radical)
+![Trophies](https://github-profile-trophy.vercel.app/?username=armaaan&theme=gruvbox)
 
 ---
 
