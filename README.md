@@ -60,7 +60,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 </table>
 
 <div align="center" style="margin-top: 20px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=tokyonight
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=armaaan&layout=compact&theme=radical
        alt="Top Languages" 
        style="width: 60%; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" />
 </div>
@@ -69,7 +69,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 📈 Contribution Graph:
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=armaaan&theme=tokyonight)
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=armaaan&theme=radical)
 
 ---
 
@@ -115,7 +115,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 🏆 Achievements:
-![Trophies](https://github-profile-trophy.vercel.app/?username=armaaan&theme=tokyonight)
+![Trophies](https://github-profile-trophy.vercel.app/?username=armaaan&theme=radical)
 
 ---
 
