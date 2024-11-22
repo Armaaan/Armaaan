@@ -34,11 +34,13 @@ jobs:
           echo "Selected stats theme: $stats_theme"
           echo "Selected graph theme: $graph_theme"
 
-          # Update GitHub Stats and Streak themes in the table
+          # Update GitHub Stats theme
           sed -i "s|\(https://github-readme-stats\.vercel\.app/api?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
+
+          # Update GitHub Streak theme
           sed -i "s|\(https://github-readme-streak-stats\.herokuapp\.com/\?user=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
 
-          # Update Top Languages widget theme
+          # Update Top Languages theme
           sed -i "s|\(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=armaaan&[^\"]*theme=\)[^&\"]*|\1$stats_theme|" README.md
 
           # Update Contribution Graph theme
