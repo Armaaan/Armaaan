@@ -115,7 +115,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 🏆 Achievements:
-![Trophies](https://github-profile-trophy.vercel.app/?username=armaaan&theme=tokyonight
+![Trophies](https://github-profile-trophy.vercel.app/?username=armaaan&theme=tokyonight)
 
 ---
 
