@@ -68,9 +68,9 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 -->
 
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=dark" alt="GitHub Stats" width="45%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" alt="GitHub Streak" width="45%" />
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=dark" alt="GitHub Stats" style="width: 400px; height: auto;" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" alt="GitHub Streak" style="width: 400px; height: auto;" />
 </div>
 
 <div align="center" style="margin-top: 20px;">
