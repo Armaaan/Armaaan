@@ -5,7 +5,7 @@ A passionate **Backend Developer** | **Open Source Contributor** | **Tech Enthus
 > *"Building the future with code."*
 
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/armanulalam)
-[![Website Badge](https://img.shields.io/badge/Portfolio-website-green)](https://armanulalam.dev)
+[![Website Badge](https://img.shields.io/badge/website-green)](https://armanulalam.dev)
 [![GitHub Badge](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/armaaan)
 
 ---
