@@ -51,10 +51,10 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=tokyonight
+      <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=radical" alt="GitHub Stats" />
     </td>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=tokyonight
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=radical" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
@@ -69,7 +69,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 ---
 
 ## 📈 Contribution Graph:
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=armaaan&theme=tokyonight
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=armaaan&theme=tokyonight)
 
 ---
 
