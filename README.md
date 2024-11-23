@@ -54,7 +54,7 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
       <img src="https://github-readme-stats.vercel.app/api?username=armaaan&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
     </td>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=tokyonight" alt="GitHub Streak" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=armaaan&theme=merko" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
