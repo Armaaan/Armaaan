@@ -21,30 +21,30 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Update README.md with new themes
-        run: |
-          # Define random themes for each widget
-          stats_themes=("dark" "radical" "merko" "tokyonight")
-          streak_themes=("dark" "radical" "merko" "tokyonight")
-          langs_themes=("dark" "radical" "merko" "tokyonight")
+      # - name: Update README.md with new themes
+      #   run: |
+      #     # Define random themes for each widget
+      #     stats_themes=("dark" "radical" "merko" "tokyonight")
+      #     streak_themes=("dark" "radical" "merko" "tokyonight")
+      #     langs_themes=("dark" "radical" "merko" "tokyonight")
 
-          # Select random themes
-          stats_theme=${stats_themes[$((RANDOM % ${#stats_themes[@]}))]}
-          streak_theme=${streak_themes[$((RANDOM % ${#streak_themes[@]}))]}
-          langs_theme=${langs_themes[$((RANDOM % ${#langs_themes[@]}))]}
+      #     # Select random themes
+      #     stats_theme=${stats_themes[$((RANDOM % ${#stats_themes[@]}))]}
+      #     streak_theme=${streak_themes[$((RANDOM % ${#streak_themes[@]}))]}
+      #     langs_theme=${langs_themes[$((RANDOM % ${#langs_themes[@]}))]}
 
-          echo "Selected stats theme: $stats_theme"
-          echo "Selected streak theme: $streak_theme"
-          echo "Selected top languages theme: $langs_theme"
+      #     echo "Selected stats theme: $stats_theme"
+      #     echo "Selected streak theme: $streak_theme"
+      #     echo "Selected top languages theme: $langs_theme"
 
-          # Update GitHub Stats widget
-          sed -i -E "s|(https://github-readme-stats\.vercel\.app/api\?username=armaaan&[^ ]*theme=)[^&\" ]*|\1$stats_theme|" README.md
+      #     # Update GitHub Stats widget
+      #     sed -i -E "s|(https://github-readme-stats\.vercel\.app/api\?username=armaaan&[^ ]*theme=)[^&\" ]*|\1$stats_theme|" README.md
 
-          # Update GitHub Streak widget
-          sed -i -E "s|(https://github-readme-streak-stats\.herokuapp\.com/\?user=armaaan&[^ ]*theme=)[^&\" ]*|\1$streak_theme|" README.md
+      #     # Update GitHub Streak widget
+      #     sed -i -E "s|(https://github-readme-streak-stats\.herokuapp\.com/\?user=armaaan&[^ ]*theme=)[^&\" ]*|\1$streak_theme|" README.md
 
-          # Update Top Languages widget
-          sed -i -E "s|(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=armaaan&[^ ]*theme=)[^&\" ]*|\1$langs_theme|" README.md
+      #     # Update Top Languages widget
+      #     sed -i -E "s|(https://github-readme-stats\.vercel\.app/api/top-langs/\?username=armaaan&[^ ]*theme=)[^&\" ]*|\1$langs_theme|" README.md
 
       - name: Commit and push changes
         run: |
