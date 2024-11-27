@@ -6,7 +6,7 @@ A passionate **Backend Developer** | **Open Source Contributor** | **Tech Enthus
 
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/armanulalam)
 [![GitHub Badge](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/armaaan)
-[![Website Badge](https://img.shields.io/badge/website-green)](https://armanulalam.dev)
+<!-- [![Website Badge](https://img.shields.io/badge/website-green)](https://armanulalam.dev) -->
 
 ---
 
@@ -72,10 +72,10 @@ Hi there! I'm **Arman Ul Alam**, a passionate backend developer and open-source 
 
 ---
 
-
+<!--
 ## 🚀 Featured Projects:
 - [**Portfolio Website**](https://armanulalam.dev) - A personal portfolio to showcase my projects and skills.
-<!-- - [**Open Source Contribution**](https://github.com/some-repo) - Contributed to XYZ features and bug fixes.
+- [**Open Source Contribution**](https://github.com/some-repo) - Contributed to XYZ features and bug fixes.
 - [**E-Commerce App**](https://github.com/yourusername/ecommerce-app) - A MERN stack e-commerce platform. -->
 
 ---
